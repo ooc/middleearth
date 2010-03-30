@@ -1,10 +1,10 @@
 
-Author: Tres Walsh (SAHChandler)
-Created: 2010-03-29
-Updated: 2010-03-30
-Type: Guideline
-Status: Draft
-Fixes: None
+Author:  Tres Walsh (SAHChandler)  
+Created: 2010-03-29  
+Updated: 2010-03-30  
+Type:    Guideline  
+Status:  Draft  
+Fixes:   None  
 
 ORC Purpose and Guidelines
 ==========================
@@ -121,6 +121,8 @@ In the future, as the community progresses and ooc's use increases, requiring ev
 
 References and Footnotes
 ------------------------
+
+None
 
 [1]: http://github.com/ooc/middleearth "ORC Repository"
 [2]: http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons License"
