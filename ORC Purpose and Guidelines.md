@@ -57,7 +57,7 @@ Once the ORC has had what appears to be a decent amount of positive feedback, a 
 
 Finally the ORC is submitted to the BDFL for final review via a pull request on GitHub. The BDFL may or may not choose any members from the community to discuss the ORC with.
 
-If the ORC is approved, it will be placed in master branch of the middleearth[1] (and signed off by the BDFL via `git commit -s`) repository for public consumption and will be a part of the official language specification.
+If the ORC is approved, it will be placed in master branch of the [middleearth][1] (and signed off by the BDFL via `git commit -s`) repository for public consumption and will be a part of the official language specification.
 
 If an ORC is rejected, the BDFL, and any consultants must inform the community of their decision, as well as the reasoning behind. The ORC will then be marked as rejected, and placed in the rejected branch of the middleearth repository (Along with the reasons for it's rejection at the bottom of the file), as a record of it's existence, and to ensure that multiple ORCs on the same subject or idea are not proposed. 
 
@@ -91,7 +91,7 @@ An ORC must have the following layout
 
  * The file in which the ORC resides must be named the same as the Name in the header. Spaces must also be included.
  * Header - The Header must contain the Author's name, as well as any alias they use in the ooc community (This is for recognition in the IRC Channel). It must also contain the date the ORC was written in ISO-8601 format (Year-Month-Day). The Header must also contain the ORC's name as well as its current status, as well as any Fix ORCs that affect it.
- * License - All ORCs are released under the Creative Commons Attribution-Share Alike 3.0 License[2].
+ * License - All ORCs are released under the [Creative Commons Attribution-Share Alike 3.0 License][2].
  * Index - A bulleted list containing the names of subsections are placed in the ORC, under a large header of the ORC's name.
  * Motivation - A small paragraph explaining how the ORC came to be.
  * Specification - A detailed analysis of the *how* of the ORC, explaining it's implementation, and possible problems that may arise from it.
