@@ -13,9 +13,12 @@ ORC Purpose and Guidelines
    + What is an ORC?
    + ORC Types
    + ORC Workflow
+   + ORC Submission Process
    + ORC Status
    + Writing an ORC
    + Transferring ORC Ownership
+   + Rationale
+   + Issues
    + References and Footnotes
 
 
@@ -32,7 +35,7 @@ ORC stands for ooc Revision Consideration. An ORC is a design document providing
 
 We (the ooc community) intend ORCs to be the primary mechanisms for proposing new features, for collecting community input on an issue, and for documenting the design decisions that have gone into ORC, as well as the invasion of Middle Earth. The ORC author is responsible for building consensus within the community and documenting dissenting opinions.
 
-ORCs are stored in a git repository on GitHub, so that any new members to the ooc community may see the history of ORCs.
+ORCs are stored in a git repository on github, so that any new members to the ooc community may see the history of ORCs.
 
 
 ORC Types
@@ -55,9 +58,9 @@ Each ORC must have a champion. This is the person who writes, hypes, and answers
 
 Once the ORC has had what appears to be a decent amount of positive feedback, a draft ORC should be submitted to the community. This allows the Author to modify the ORC more to the community's wishes, as well as fix any problems before the ORC is submitted. 
 
-Finally the ORC is submitted to the BDFL for final review via a pull request on GitHub. The BDFL may or may not choose any members from the community to discuss the ORC with.
+Finally the ORC is submitted to the BDFL for final review via a pull request on github. The BDFL may or may not choose any members from the community to discuss the ORC with. Note however, that there must be a 5 day minimum period between the Draft creation and submission. This is to ensure that there is ample enough time for a majority of the community to see and comment on the Draft.
 
-If the ORC is approved, it will be placed in the accepted folder of the [middleearth][1] (via the GitHub Fork Queue feature) repository for public consumption and will be a part of the official language specification.
+If the ORC is approved, it will be placed in the accepted folder of the [middleearth][1] repository for public consumption and will be a part of the official language specification.
 
 If an ORC is rejected, the BDFL, and any consultants must inform the community of their decision, as well as the reasoning behind. The ORC will then be marked as rejected, and placed in the rejected folder of the middleearth repository (Along with the reasons for it's rejection at the bottom of the file), as a record of it's existence, and to ensure that multiple ORCs on the same subject or idea are not proposed. 
 
@@ -70,6 +73,12 @@ Additionally, if there was a large controversy over the acceptance of an ORC, an
 Once an ORC is rejected, or accepted, it will be assigned a number. This number will precede the file's title (e.g. 2 - Some Arbitrary Feature), but the ORC will be referred to in the following way: (i.e. `ORC-2`)
 
 
+ORC Submission Process
+----------------------
+
+The ORC submission process is as follows. Fork the main [middleearth][1] repository on github. From there, work on your ORC in the drafts folder. Eventually, a pull request is sent to the BDFL account (in this case ooc). The BDFL will then merge your drafts folder. At this point, your Draft is under review. Once it is Approved, or Rejected it will be moved into the appropriate folder.
+
+
 ORC Status
 ----------
 
@@ -77,7 +86,6 @@ An ORC may have only one of the following statuses.
 
  * Draft
  * Withdrawn
- * Under Review
  * Accepted
  * Contested
  * Rejected
