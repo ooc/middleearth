@@ -57,9 +57,9 @@ Once the ORC has had what appears to be a decent amount of positive feedback, a 
 
 Finally the ORC is submitted to the BDFL for final review via a pull request on GitHub. The BDFL may or may not choose any members from the community to discuss the ORC with.
 
-If the ORC is approved, it will be placed in master branch of the [middleearth][1] (via the GitHub Fork Queue feature) repository for public consumption and will be a part of the official language specification.
+If the ORC is approved, it will be placed in the accepted folder of the [middleearth][1] (via the GitHub Fork Queue feature) repository for public consumption and will be a part of the official language specification.
 
-If an ORC is rejected, the BDFL, and any consultants must inform the community of their decision, as well as the reasoning behind. The ORC will then be marked as rejected, and placed in the rejected branch of the middleearth repository (Along with the reasons for it's rejection at the bottom of the file), as a record of it's existence, and to ensure that multiple ORCs on the same subject or idea are not proposed. 
+If an ORC is rejected, the BDFL, and any consultants must inform the community of their decision, as well as the reasoning behind. The ORC will then be marked as rejected, and placed in the rejected folder of the middleearth repository (Along with the reasons for it's rejection at the bottom of the file), as a record of it's existence, and to ensure that multiple ORCs on the same subject or idea are not proposed. 
 
 After 6 months, the Author of a rejected ORC may make a case to move their ORC from rejected to accepted. At this point the ORC will be placed in draft status, and the community will once again be allowed to voice their opinions. There is no limit as to how many times an ORC may be tasked for re-evaluation. 
 
