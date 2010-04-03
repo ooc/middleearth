@@ -54,9 +54,13 @@ ORC Workflow
 
 An ORC may have only one idea, or a single solution to any given problem.
 
-Each ORC must have a champion. This is the person who writes, hypes, and answers any and all questions related to the ORC throughout its lifetime. This person is also known as the Author. Before writing the ORC, the Author should ascertain if there is any interest in such an ORC by asking the community in the mailing list, or the IRC Channel. Of course, if most feedback is negative, the Author should seriously consider *not* writing the ORC, though there is nothing stopping them.
+Each ORC must have a champion. This is the person who writes, hypes, and answers any and all questions related to the ORC throughout its lifetime. This person is also known as the Author. Before writing the ORC, the Author should ascertain if there is any interest in such an ORC by asking the community in the mailing list, or the IRC Channel. Of course, if most feedback is negative, the Author should seriously consider *not* writing the ORC, though there is nothing stopping them. 
 
 Once the ORC has had what appears to be a decent amount of positive feedback, a draft ORC should be submitted to the community. This allows the Author to modify the ORC more to the community's wishes, as well as fix any problems before the ORC is submitted. 
+
+There is no specific ruleset to determine whether an ORC has received a negative amount of feedback however, there are a few events that a potential Author should take note of as discouragement. Among these are the BDFL expressing his distate in the subject of the ORC, several negative messages in quick succession, and grey wizards showing up at your doorstep.
+
+It would be best for potential Authors to keep a tally of yay or nay throughout the community, to judge potential interest. 
 
 Finally the ORC is submitted to the BDFL for final review via a pull request on github. The BDFL may or may not choose any members from the community to discuss the ORC with. Note however, that there must be a 5 day minimum period between the Draft creation and submission. This is to ensure that there is ample enough time for a majority of the community to see and comment on the Draft.
 
@@ -76,7 +80,7 @@ Once an ORC is rejected, or accepted, it will be assigned a number. This number 
 ORC Submission Process
 ----------------------
 
-The ORC submission process is as follows. Fork the main [middleearth][1] repository on github. From there, work on your ORC in the drafts folder. Eventually, a pull request is sent to the BDFL account (in this case ooc). The BDFL will then merge your drafts folder. At this point, your Draft is under review. Once it is Approved, or Rejected it will be moved into the appropriate folder.
+The ORC submission process is as follows. Fork the main [middleearth][1] repository on github. From there, work on your ORC in your forks master branch. Eventually, a pull request is sent to the BDFL account (in this case ooc). The BDFL will then merge your master branch into the core middleearth draft branch. Anything in this branch is instantly considered Under Review. Once it is Approved, or Rejected it will be moved into the master branch, or rejected branch (respectively).
 
 
 ORC Status
@@ -105,7 +109,7 @@ An ORC must have the following layout
  * Specification - A detailed analysis of the *how* of the ORC, explaining it's implementation, and possible problems that may arise from it.
  * Rationale - A detailed analysis of the *why* behind the ORC, explaining it's necessity to the community.
  * Issues - Any issues that may arise be it from platform implementations, to compiler issues, as well as any problems the Author may have with the ORC.
- * References and Footnotes - The end of the ORC should contain links to any references mentioned in the ORC, as well as footnotes, such as explanations for terminology used.
+ * References and Footnotes - The end of the ORC should contain links to any references mentioned in the ORC, as well as footnotes, such as explanations for terminology used. 
 
 While file line endings are not enforced, it is recommended that line endings use the Unix format (LF), rather than the Mac OS X (CR) or Windows (CRLF) line endings. Most Text Editors allow for the selection of line endings.
 
@@ -119,7 +123,7 @@ Every so often the transfership of an ORC's owner is necessary. Whether this be 
 Rationale
 ---------
 
-As communities grow and prosper, a set of rules and guidelines to ensure quality code, as well as a disciplined community, are necessary. The PEP, from which ORCs are effectively derived, are a perfect example of this. Conversely, several languages take the committee approach, where every couple of years the current state of computing is assessed, and new features are added. In today's world of constantly shifting computing paradigms, a more dynamic approach is necessary to ensure that a language stays up to date with the most recent advances in computer science.
+As communities grow and prosper, a set of rules and guidelines to ensure quality code, as well as a disciplined community, are necessary. The PEP, from which ORCs are effectively derived, are a perfect example of this. Conversely, several languages take the committee approach, where every couple of years the current state of computing is assessed, and new features are added. In today's world of constantly shifting computing paradigms, a more dynamic approach is necessary to ensure that a language stays up to date with the most recent advances in computer science, while also following the will of the actual users of the language.
 
 Issues
 ------
@@ -130,7 +134,8 @@ In the future, as the community progresses and ooc's use increases, requiring ev
 References and Footnotes
 ------------------------
 
-None
+[1] http://www.python.org/dev/peps/
+
 
 [1]: http://github.com/ooc/middleearth "ORC Repository"
 [2]: http://creativecommons.org/licenses/by-sa/3.0/ "Creative Commons License"
