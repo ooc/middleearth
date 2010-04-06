@@ -58,7 +58,7 @@ Each ORC must have a champion. This is the person who writes, hypes, and answers
 
 Once the ORC has had what appears to be a decent amount of positive feedback, a draft ORC should be submitted to the community. This allows the Author to modify the ORC more to the community's wishes, as well as fix any problems before the ORC is submitted. 
 
-There is no specific ruleset to determine whether an ORC has received a negative amount of feedback however, there are a few events that a potential Author should take note of as discouragement. Among these are the BDFL expressing his distate in the subject of the ORC, several negative messages in quick succession, and grey wizards showing up at your doorstep.
+There is no specific ruleset to determine whether an ORC has received a negative amount of feedback however, there are a few events that a potential Author should take note of as discouragement. Among these are several negative messages in quick succession and grey wizards showing up at your doorstep.
 
 It would be best for potential Authors to keep a tally of yay or nay throughout the community, to judge potential interest. 
 
